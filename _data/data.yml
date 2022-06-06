@@ -9,34 +9,19 @@ sidebar:
     # Profile information
     name: Rob Banfield
     tagline: DevOps Engineer # With some Snark!
-    #TODO: avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: li_profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: rob.banfield@gmail.com
-    #phone: 012 345 6789
-    #citizenship:
-    #website: blog.webjeda.com #do not add http://
     linkedin: robbanfield
-    #xing: alandoe
     github: robbanfield
-    #telegram: # add your nickname without '@' sign
-    #gitlab:
-    #bitbucket:
     twitter: '@robbanfield'
-    #stack-overflow: # Number/Username, e.g. 123456/alandoe
-    #codewars:
-    #goodreads: # Number-Username, e.g. 123456-alandoe
-    #pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
       - idiom: English
-
-
     interests:
       - item: Woodturning
         link:
-
-
 
 career-profile:
     title: Career Profile
@@ -55,10 +40,9 @@ education:
       details:
 experiences:
     - role: Senior Operations Developer
-      time: 2021 - Present
-      company: Clik2pay, 
-      details: |
-        
+      time: Sept 2021 - Present
+      company: Clik2pay
+      details: |        
           - AWS management with a security focus on IAM, EBS, S3, CloudTrail and Config
           - Created Operations Incident Management including integrating AWS metrics to our alerting platform, all managed and deployed as Infrastructure as Code.
           - Advocated for and introduced an Application Performance Management solution for core application
@@ -68,14 +52,77 @@ experiences:
           - Performed a tool comparison and enabled dev team to use a Software Composition Analysis to detect security issues in the code base 
           - Using CloudFormation and Terraform to manage and maintain a secure environment per SOC2 & CIS security benchmarks.
           - Used Terraform to manage deployment of core application as well as establishing and maintaining a secure baseline for all provisioned AWS accounts.        
-    
+    - role: Manager, IT Operations
+      time: Jan 2019 - Sept 2021
+      company: Bambora North America, A Worldline Branch
+      details: | 
+          - Provided project management and direction to multiple high impact datacenter migrations, providing increased DR resiliency by moving two local DCs to geographically disperse locations
+          - Rebuilt the IT/Operations team from 2 to 7 full time employees.
+          - Responsible for Team management from hiring, bi-weekly 1:1, performance reviews, team workload prioritization.
+          - Refined deployment cadence with tech management team to improve reliability of the service.
+          - Collaborated with the Security & Compliance team to triage and respond to auditor requests.
+          - Worked with Customer Operations to streamline processes and engage the operations team where required.  
+    - role: DevOps Team Lead
+      time: Feb 2009 - Jan 2019
+      company: GenoLogics Life Sciences Software Inc, an Illumina company
+      details: | 
+          - Successfully planned and migrated an on-premise build environment to AWS ahead of schedule.
+          - Transitioned 8 years of Clarity DevOps to new team in Singapore focusing on active training sessions and constructing a learning plan engaging the new team
+          - Maintained and improved the build and test infrastructure using automated deploy tools such as Kickstart, Ansible and Fabric, improving reliability and stability of development environment
+          - Created a build process for delivering portable virtual machines for the sales team, leveraging Ansible, VirtualBox and Vagrant to automate server installation and configuration
+          - Established and test on an on-going basis the disaster recovery plan for the development infrastructure
+          - Internal training for teams (VirtualBox best practices, Linux 101 for Scientists, Tableau for Scientists, RPM for Developers, Vagrant for Developers)
+          - IT admin and IT Procurement  
+    - role: Test Lead 
+      time: May 2007 - Feb 2009
+      company: Modular Mining 
+      details: |
+          - Managed quality assurance team through the development life cycle of a mining operations software, defining tasks and schedules, managing budget, chairing meetings with developers and project management team and coordinating between testing team and domain experts
+          - Created automated installer for my QA team, freeing them to focus on new builds
+          - Mentored automation testing team during their creation of automated functional test cases
+          Subcontracted by QA Labs
+    - role: QA Automation Engineer / Technical Lead
+      time: Jun 2005 - May 2007
+      company: QA Labs
+      details: |
+          - Created custom functional testing application for specialized gaming system communicating over TCP/IP
+          - Designed and developed reusable test harnesses in Perl, allowing a quick start to similar projects and reducing costs and time
+          - Defined and championed a coding standard to allow automated customer facing API documentation generation for custom-made test harnesses
+          - Introduced process improvements such as a tracking tool for internal IT requests to enable accurate request tracking, prioritizing and approval
+          - Researched and implemented a custom logging DLL for automation projects, enabling consistent logging amongst the projects
+          - Upgraded legacy time-tracking application, adding missing administration functionality
+    - role: Test Integration Engineer
+      time: Sep 2003 - Jun 2005
+      company: Nokia
+      details: | 
+          - Tested and integrated various telephony software applications, including cellular engines for Symbian C++, operating systems, middleware, and data communications stacks
+    - role: Programmer / Linux Administrator
+      time: 2002 - 2003
+      company: Corporate Mentoring Solutions Inc.
+      details: |
+          - Worked with the product owners to collect and document requirements for the flagship product
+          - Designed and implemented new components for the flagship product using Java Servlets using a MySQL database backend
+          - Upgraded existing Java Servlets web applications to comply with US Section 508 accessibility guideline      
+
 
 skills:
-    title: Skills &amp; Proficiency
-
+    title: Skills
     toolset:
-      - name: TODO
+      - name: AWS
         level: 100%
+      - name: DevSecOps
+        level: 100%
+      - name: Continuous Integration, Delivery and Deployment
+        level: 100%        
+      - name: People Management
+        level: 100% 
+      - name: Project Management
+        level: 100%
+      - name: Recruiting
+        level: 100%
+      - name: Terraform
+        level: 100%
+
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
