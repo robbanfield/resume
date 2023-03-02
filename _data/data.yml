@@ -39,8 +39,15 @@ education:
       time: 1993 - 1997
       details:
 experiences:
+    - role: Manager of Cloud Infrastructure
+      time: August 2022 - Present
+      company: Semaphore Solutions
+      details: |
+          - Restructured AWS organization following Amazon best practices to revamp security and User Controls
+          - Integrated JumpCloud to AWS Identity Centre to simplify user management
+          - Responsible for leading and executing on Security and Operations for the Semaphore Product team
     - role: Senior Operations Developer
-      time: Sept 2021 - Present
+      time: Sept 2021 - July 2022
       company: Clik2pay
       details: |        
           - AWS management with a security focus on IAM, EBS, S3, CloudTrail and Config
